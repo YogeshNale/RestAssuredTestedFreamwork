@@ -12,6 +12,9 @@ import io.cucumber.junit.CucumberOptions;
 		glue= {"stepDefinations"} )
 //tags= "@DeletePlace"
 public class TestRunner {
-//All things We need to write in above class name
-	//this comment is added for to add then code in master branch 
+	//All things We need to write in above class name
+		//this comment is added for to add then code in master branch  
+//Removed added comment 
+
+
 }
