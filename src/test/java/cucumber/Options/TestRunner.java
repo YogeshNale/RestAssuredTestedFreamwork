@@ -12,5 +12,5 @@ import io.cucumber.junit.CucumberOptions;
 		glue= {"stepDefinations"} )
 //tags= "@DeletePlace"
 public class TestRunner {
-
+//All things We need to write in above class name
 }
