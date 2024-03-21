@@ -27,7 +27,7 @@ Body:
     "language": "Shirdi"
 }
 HTTP/1.1 200 OK
-Date: Sat, 02 Mar 2024 04:35:05 GMT
+Date: Thu, 21 Mar 2024 12:44:35 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,17 +40,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "509a1e09195b25427a43eb1e516b9602",
+    "place_id": "c95701db54ee31ae83b2e49788ba9a61",
     "scope": "APP",
-    "reference": "d27c12ca43570c2a9c3159f78f2da1d5d27c12ca43570c2a9c3159f78f2da1d5",
-    "id": "d27c12ca43570c2a9c3159f78f2da1d5"
+    "reference": "d787ee1cf6de0170c4e4a36d776934b4d787ee1cf6de0170c4e4a36d776934b4",
+    "id": "d787ee1cf6de0170c4e4a36d776934b4"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=509a1e09195b25427a43eb1e516b9602
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=c95701db54ee31ae83b2e49788ba9a61
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=509a1e09195b25427a43eb1e516b9602
+				place_id=c95701db54ee31ae83b2e49788ba9a61
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -59,7 +59,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sat, 02 Mar 2024 04:35:06 GMT
+Date: Thu, 21 Mar 2024 12:44:37 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -84,6 +84,91 @@ Content-Type: application/json;charset=UTF-8
     "language": "Shirdi"
 }
 Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Shiv",
+    "phone_number": "9604677424",
+    "address": "Shiv1",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "yogeshnalepatil.com",
+    "language": "Shiv2"
+}
+HTTP/1.1 200 OK
+Date: Thu, 21 Mar 2024 12:44:39 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "bf81eec371b89898a3c561793c489b03",
+    "scope": "APP",
+    "reference": "10a2e3f18f5ea689a7caf692638d279f10a2e3f18f5ea689a7caf692638d279f",
+    "id": "10a2e3f18f5ea689a7caf692638d279f"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=bf81eec371b89898a3c561793c489b03
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=bf81eec371b89898a3c561793c489b03
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 21 Mar 2024 12:44:39 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 213
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Shiv",
+    "phone_number": "9604677424",
+    "address": "Shiv1",
+    "types": "shoe park,shop",
+    "website": "yogeshnalepatil.com",
+    "language": "Shiv2"
+}
+Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
 Proxy:			<none>
 Request params:	<none>
@@ -96,10 +181,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "509a1e09195b25427a43eb1e516b9602"
+    "place_id": "bf81eec371b89898a3c561793c489b03"
 }
 HTTP/1.1 200 OK
-Date: Sat, 02 Mar 2024 04:35:07 GMT
+Date: Thu, 21 Mar 2024 12:44:40 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST

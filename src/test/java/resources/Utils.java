@@ -34,7 +34,7 @@ public class Utils {
 	// for call base URl dynamically from global properties
 	public static String baseURL(String baseURL) throws IOException {
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("D:\\RestAssuredAPIAutomationFramWorks\\YogeshNale\\src\\test\\java\\resources\\global.properties");
+		FileInputStream fis = new FileInputStream("D:\\API Automation FrameWork\\RestAssuredTestedFreamwork\\src\\test\\java\\resources\\global.properties");
 		prop.load(fis);
 		return prop.getProperty(baseURL);
 	}
